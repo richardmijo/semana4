@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/contenedor.dart';
 import 'widgets/texto.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MiClase extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Center(
-        child: Texto(),
+        child: MiContenedor(),
       ),
     );
   }
